@@ -1,0 +1,382 @@
+body{
+ 
+    font-family: 'Ubuntu', sans-serif;
+}
+.intro{
+    height: 90vh;
+    background-image: url(images/bachground.jpg);
+    color: white;
+    border-bottom-left-radius:  8% 17%;
+    text-align: center;
+}
+/* ------------------------------------------------------------NAVIGATION BAR--------------------------------------------------------------------*/
+.navbar{
+    padding:50px 150px;
+}
+.dropdown-toggle{
+    color: white;
+    opacity: 75%;
+    padding: 0 25px;
+}
+
+.dropdown-toggle:hover{
+    color: white;
+    opacity: 100%;
+}
+.dropdown-menu{
+    background-color: white;
+    opacity: 70%;
+}
+
+.dropdown-item{
+    text-align: center;
+    color: black;
+}
+
+.dropdown-item:hover{
+    color: black;
+}
+
+.bg-transparent{
+    color:white;
+    padding: 10px 30px;
+}
+
+.nav-btn2{
+    color:hsl(353, 100%, 62%);
+    padding: 10px 30px;
+    border-radius: 35px;
+}
+/* --------------------------------------------------------------INTRO-CONTENT-------------------------------------------------------------------*/
+.introduction{
+    text-align: center;
+}
+.intro-content{ 
+    font-size: 20px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 200;
+    opacity: 75%;
+}
+
+.intro-h1{
+    padding: 100px 150px 15px 150px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 80px;
+}
+
+.intro-btn1{
+    border-radius: 35px;
+    margin-top: 2px;
+    color:hsl(353, 100%, 62%);
+}
+.intro-btn1:hover{
+    background-color: transparent;
+    color:white;
+    border-color: white;
+}
+
+.intro-btn2{
+    border-radius: 35px;
+    margin-top: 2px;
+}
+
+.intro-btn2:hover{
+    color:hsl(353, 100%, 62%);
+}
+/* ----------------------------------------------------------------MIDDLE 1----------------------------------------------------------------------*/
+.middle1{
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    top: 700px;
+    height: 135vh;
+}
+.middle1-h2{
+    text-align: center;
+    padding: 150px 0px 100px 0px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+    color: hsl(208, 49%, 24%);
+}
+
+.row{
+    margin: 0;
+}
+
+.col1{
+    text-align: left;
+    margin-left: 140px;
+    padding-right:0;
+}
+.middle1-h4{
+    color: hsl(208, 49%, 24%);
+}
+
+.middle1-content{
+    color:hsl(207, 13%, 34%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.desktop1{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 670px;
+    height: 885px;
+    background-image: url(images/illustration-editor-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+/* ----------------------------------------------------------------MIDDLE 2----------------------------------------------------------------------*/
+
+.middle2{
+    position: absolute;
+    z-index: 0;
+    top: 1720px;
+    height: 55vh;
+    background-image: linear-gradient(to right,hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    color: white;
+    border-bottom-left-radius:  7% 25%;
+    border-top-right-radius:  7% 25%;
+}
+
+.middle2-h2{
+    color: white;
+}
+
+.middle2-content{
+    color: white;
+    font-family: 'Overpass', sans-serif;
+}
+
+.col2{
+    text-align: left;
+    margin-right: 200px;
+    padding: 0;
+    margin-left:0px;
+    margin-top: 120px;
+}
+
+.desktop2-1{
+    width: 590px;
+    height: 800px;
+    position: absolute;
+    z-index: 3;
+    top: 950px;
+    left: 120px;
+    background-image: url(images/illustration-phones.svg);
+    background-repeat: no-repeat;
+}
+
+
+.desktop2-2{
+    position: absolute;
+    top:1200px;
+    right:611px; 
+    width: 1200px;
+    height: 1200px;
+    background-image: url(images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;  
+}
+
+.middle3{
+    position:absolute;
+    background-color: white;
+    z-index: 2;
+    top:2170px;
+    color: hsl(208, 49%, 24%);
+    padding-top: 100px;
+}
+
+.middle3-content{
+    color:hsl(207, 13%, 34%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.col3{
+    text-align: left;
+    margin-right: 200px;
+    padding: 0;
+    margin-left:0px;
+    margin-top: 200px;
+}
+
+.desktop3{
+    position: absolute;
+    z-index: 3;
+    right: 900px;
+    width: 900px;
+    height: 900px;
+    background-image: url(images/illustration-laptop-desktop.svg);
+    background-repeat: no-repeat;
+}
+/* -----------------------------------------------------------------FOOTER-----------------------------------------------------------------------*/
+.footer{
+    position: absolute;
+    top: 3150px;
+    background-color: hsl(240, 10%, 16%);
+    width: 98.8vw;
+    height: 300px;
+    color: white;
+    border-top-left-radius: 7% 27%;
+}
+
+.footer-h6{
+    color: hsl(240, 2%, 79%);
+}
+
+.footer-h6:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footer-content{
+    font-size: 16px;;
+    color:hsl(240, 2%, 79%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.footer-content:hover{
+    color: white;
+    text-decoration: underline;
+}
+.col-md-3{
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+}
+/* -----------------------------------------------------------------Mobile-----------------------------------------------------------------------*/
+@media screen and (max-width: 600px)
+{   .dropdown{
+        padding: 10px 0px;
+    }
+    .navbar{
+        padding: 10px 50px; 
+    }
+
+    .dropdown-toggle{
+        padding: 10px 0px;
+    }
+    .intro{
+        height: 100vh;
+        padding-top: 25px;
+        border-bottom-left-radius: 20% 10%;
+    }
+    .intro-h1{
+        padding: 3px;
+        padding-top:60px;
+        font-size: 43px;
+    }
+    .intro-content{ 
+        font-size: 20px;
+        font-weight: lighter; 
+    }
+
+    .middle1{
+        position: static;
+        height: 135vh;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .middle1-h2{
+        padding: 70px 0px;
+        font-family: 'Overpass', sans-serif;
+        font-weight: bold;
+        color: hsl(208, 49%, 24%);
+    }
+    
+    .col1{
+        text-align: center;
+        margin-left: 0px;
+        padding-right:0;
+    }
+
+    .desktop1{
+        position: static;
+        width: 98vw;
+        height: 98vw;
+        background-image: url(images/illustration-editor-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .desktop2-1{
+        width: 390px;
+        height: 390px;
+        position: absolute;
+        /* z-index: 3; */
+        top: 1720px;
+        left: 0px;
+        background-image: url(images/illustration-phones.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .middle2{
+        position: static;
+        margin-top: 83vh;
+        height: 80vh;
+        background-image: linear-gradient(to right,hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+        color: black;
+        border-bottom-left-radius:  20% 15%;
+        border-top-right-radius:  20% 15%;
+        padding-top: 60px;
+    }
+
+    .col2{
+        text-align: center;
+        padding: 0;
+        margin-right:5px;
+        margin-left: 5px;
+    }
+    .desktop2-2{
+        bottom: 100vh;
+        width: 95vw;
+        height: 95vh;
+        background-image: url(images/bg-pattern-circles.svg);
+        background-repeat: no-repeat;  
+        background-size: contain;
+    }
+
+    .middle3{
+        position:static;
+        background-color: white;
+        color: hsl(208, 49%, 24%);
+        justify-content: center;
+    }
+    
+    .middle3-content{
+        color:hsl(207, 13%, 34%);
+        font-family: 'Overpass', sans-serif;
+    }
+    
+    .col3{
+        text-align: center;
+        margin-right: 5px;
+        padding: 0;
+        margin-left:5px;
+        margin-top: 0px;
+    }
+    
+    .desktop3{
+        position: static;
+        width: 98vw;
+        height: 98vw;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .footer{
+        text-align: center;
+        position: static;
+        height: 125vh;
+        border-top-left-radius: 25% 10%;
+    }
+
+    .footer-content{
+        font-size: 16px;;
+    }
+    
+    .col-md-3{
+        padding: 0px;
+        padding-top: 50px;
+    }
+}
