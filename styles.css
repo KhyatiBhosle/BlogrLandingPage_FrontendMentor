@@ -303,8 +303,7 @@ body{
         width: 390px;
         height: 390px;
         position: absolute;
-        /* z-index: 3; */
-        top: 1720px;
+        top: 1800px;
         left: 0px;
         background-image: url(images/illustration-phones.svg);
         background-repeat: no-repeat;
@@ -313,7 +312,7 @@ body{
 
     .middle2{
         position: static;
-        margin-top: 83vh;
+        margin-top: 50vh;
         height: 80vh;
         background-image: linear-gradient(to right,hsl(237, 17%, 21%), hsl(237, 23%, 32%));
         color: black;
