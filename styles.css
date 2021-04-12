@@ -149,6 +149,10 @@ body{
     font-family: 'Overpass', sans-serif;
 }
 
+.middle2-1{
+    visibility: collapse;
+}
+
 .col2{
     text-align: left;
     margin-right: 200px;
@@ -302,12 +306,20 @@ body{
     .desktop2-1{
         width: 390px;
         height: 390px;
-        position: absolute;
-        top: 1780px;
-        left: 0px;
+        visibility:collapse;
         background-image: url(images/illustration-phones.svg);
         background-repeat: no-repeat;
         background-size: contain;
+    }
+
+    .middle2-1{
+        visibility:visible;
+        position: absolute;
+        top: 1750px;
+    }
+
+    .mobile2-1{
+        width: 397px;
     }
 
     .middle2{
@@ -366,7 +378,7 @@ body{
     .footer{
         text-align: center;
         position: static;
-        height: 100vh;
+        height: 125vh;
         border-top-left-radius: 25% 10%;
     }
 
