@@ -265,6 +265,7 @@ body{
         padding: 10px 0px;
     }
     .intro{
+        /* width: 100vw; */
         height: 666px;
         padding-top: 25px;
         border-bottom-left-radius: 20% 10%;
@@ -287,7 +288,7 @@ body{
     }
 
     .middle1-h2{
-        padding: 70px 0px 0px 30px;
+        padding: 70px 0px 0px 0px;
         font-family: 'Overpass', sans-serif;
         font-weight: bold;
         color: hsl(208, 49%, 24%);
@@ -301,7 +302,7 @@ body{
 
     .desktop1{
         position: static;
-        width: 397px;
+        width: 99vw;
         height: 400px;
         background-image: url(images/illustration-editor-desktop.svg);
         background-repeat: no-repeat;
@@ -335,12 +336,7 @@ body{
         margin-left: 5px;
     }
     .desktop2-2{
-        bottom: 100vh;
-        width: 390px;
-        height: 660px;
-        background-image: url(images/bg-pattern-circles.svg);
-        background-repeat: no-repeat;  
-        background-size: contain;
+        visibility: collapse;
     }
 
     .middle3{
@@ -348,6 +344,7 @@ body{
         background-color: white;
         height: 1000px;
         color: hsl(208, 49%, 24%);
+        text-align: center;
         justify-content: center;
         padding-top:50px;
     }
@@ -368,7 +365,7 @@ body{
     .desktop3{
         position: static;
         width: 98vw;
-        height: 98vw;
+        height: 390px;
         background-repeat: no-repeat;
         background-size: contain;
     }
