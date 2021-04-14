@@ -265,8 +265,7 @@ body{
         padding: 10px 0px;
     }
     .intro{
-        /* width: 100vw; */
-        height: 666px;
+        height: 680px;
         padding-top: 25px;
         border-bottom-left-radius: 20% 10%;
     }
@@ -310,7 +309,7 @@ body{
     }
     .desktop2-1{
         position:absolute;
-        top:1680px;
+        top:1700px;
         left:40px;
         width: 80vw;
         background-image: url(images/illustration-phones.svg);
@@ -321,7 +320,7 @@ body{
     .middle2{
         position: static;
         margin-top: 100px;
-        height: 80vh;
+        height: 400px;
         background-image: linear-gradient(to right,hsl(237, 17%, 21%), hsl(237, 23%, 32%));
         color: black;
         border-bottom-left-radius:  20% 15%;
@@ -372,7 +371,7 @@ body{
     .footer{
         text-align: center;
         position: static;
-        height: 730px;
+        height: 720px;
         border-top-left-radius: 25% 10%;
     }
 
@@ -384,4 +383,12 @@ body{
         padding: 0px;
         padding-top: 50px;
     }
+}
+
+@media screen and (max-width: 360px){
+    .desktop2-1{
+        position:absolute;
+        top:1750px;
+    }
+    
 }
